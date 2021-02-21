@@ -1,0 +1,9 @@
+body {
+  overflow-x: hidden !important;
+  touch-action: none;
+  -ms-touch-action: none;
+}
+
+div {
+  opacity: 1 !important;
+}
