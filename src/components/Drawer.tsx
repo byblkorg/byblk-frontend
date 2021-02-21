@@ -8,6 +8,7 @@ import {
   Switch,
   TouchableOpacity,
   Platform,
+  Linking,
 } from "react-native";
 import { Auth } from "screens";
 import createTheme, { colors } from "theme";
@@ -44,6 +45,22 @@ export default function Drawer() {
             </Text>
           </View>
         )}
+
+        <View>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL("https://github.com/byblkorg/byblk-frontend");
+            }}
+          >
+            <Text style={[theme.typography.title, styles.link]}>Github</Text>
+          </TouchableOpacity>
+        </View>
+
+        <View>
+          <Text style={[theme.typography.title, styles.link]}>
+            Cash App: $byblkorg
+          </Text>
+        </View>
 
         <View>
           <TouchableOpacity

@@ -10,8 +10,6 @@ import Animated from "react-native-reanimated";
 const { Extrapolate, interpolateNode } = Animated;
 const { height: wHeight, width: wWidth } = Dimensions.get("window");
 
-export const backgroundImage = require("./assets/background.jpeg");
-
 export const HEADER_IMAGE_HEIGHT = wHeight / 3;
 const styles = StyleSheet.create({
   image: {
