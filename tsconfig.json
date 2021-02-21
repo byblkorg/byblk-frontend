@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "components": ["./src/components/index.ts"],
+      "screens": ["./src/screens/index.ts"],
+      "theme": ["./theme.ts"],
+      "appcontext": ["./appcontext.ts"],
+      "types": ["./src/types/index.ts"],
+      "graphql/queries": ["./src/graphql/queries/index.ts"],
+      "graphql/mutations": ["./src/graphql/mutations/index.ts"],
+      "services": ["./src/services/index.ts"],
+    }
+  }
+}
